@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "toolkit for javascript",
   "main": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "npm run typings && npm run rollup",
     "typings": "tsc --emitDeclarationOnly",
