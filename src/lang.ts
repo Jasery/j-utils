@@ -6,7 +6,8 @@ export function isString(arg: unknown) {
   return typeof arg === "string";
 }
 
-export const SOME_STR = `
+export function log2() {
+  let SOME_STR = `
 asdfas;ldkfjasldkfja;sldkfja;sldkfja;sldkjfa;lskdf;alsdkfja;sldkfja;lsdkfja;lsdkfja;lsdkfja;lsdkjfa;sldkfja;slkdfja;lsdkjfa;lsdkfja;sldkjfa;lsdkjfa;lsdkjfa;lsdkjfa;lskjdf;laksjdf;laksjdfalksdjfa;lskdjfa;lsdkjfa;lskdjf;alsjdf;laskjdflpa;sd
 asdfas;ldkfjasldkfja;sldkfja;sldkfja;sldkjfa;lskdf;alsdkfja;sldkfja;lsdkfja;lsdkfja;lsdkfja;lsdkjfa;sldkfja;slkdfja;lsdkjfa;lsdkfja;sldkjfa;lsdkjfa;lsdkjfa;lsdkjfa;lskjdf;laksjdf;laksjdfalksdjfa;lskdjfa;lsdkjfa;lskdjf;alsjdf;laskjdflpa;sd
 asdfas;ldkfjasldkfja;sldkfja;sldkfja;sldkjfa;lskdf;alsdkfja;sldkfja;lsdkfja;lsdkfja;lsdkfja;lsdkjfa;sldkfja;slkdfja;lsdkjfa;lsdkfja;sldkjfa;lsdkjfa;lsdkjfa;lsdkjfa;lskjdf;laksjdf;laksjdfalksdjfa;lskdjfa;lsdkjfa;lskdjf;alsjdf;laskjdflpa;sd
@@ -101,3 +102,5 @@ asdfas;ldkfjasldkfja;sldkfja;sldkfja;sldkjfa;lskdf;alsdkfja;sldkfja;lsdkfja;lsdk
 asdfas;ldkfjasldkfja;sldkfja;sldkfja;sldkjfa;lskdf;alsdkfja;sldkfja;lsdkfja;lsdkfja;lsdkfja;lsdkjfa;sldkfja;slkdfja;lsdkjfa;lsdkfja;sldkjfa;lsdkjfa;lsdkjfa;lsdkjfa;lskjdf;laksjdf;laksjdfalksdjfa;lskdjfa;lsdkjfa;lskdjf;alsjdf;laskjdflpa;sd
 
 `;
+  console.log(SOME_STR);
+}

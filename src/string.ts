@@ -13,7 +13,8 @@ export function fitStr(str: string, len: number, replace = "...") {
   return str.substring(0, len) + replace;
 }
 
-export const OTHER = `
+export function log1() {
+  let OTHER = `
 as;lkdjfa;lskdjf;alskdjfa;lskdjf;alskdjf;alskdjf;alksjdf;alksjdfak;lsjd;falksjdf;laksjd;flakjs;dlfkajs;ldkfjal;sjdfl;kajs;ldfkjasl;kdjf;lasjdfl;akjs;dlkfja;iesfja;lksdjf;oa
 as;lkdjfa;lskdjf;alskdjfa;lskdjf;alskdjf;alskdjf;alksjdf;alksjdfak;lsjd;falksjdf;laksjd;flakjs;dlfkajs;ldkfjal;sjdfl;kajs;ldfkjasl;kdjf;lasjdfl;akjs;dlkfja;iesfja;lksdjf;oa
 as;lkdjfa;lskdjf;alskdjfa;lskdjf;alskdjf;alskdjf;alksjdf;alksjdfak;lsjd;falksjdf;laksjd;flakjs;dlfkajs;ldkfjal;sjdfl;kajs;ldfkjasl;kdjf;lasjdfl;akjs;dlkfja;iesfja;lksdjf;oa
@@ -147,3 +148,6 @@ as;lkdjfa;lskdjf;alskdjfa;lskdjf;alskdjf;alskdjf;alksjdf;alksjdfak;lsjd;falksjdf
 as;lkdjfa;lskdjf;alskdjfa;lskdjf;alskdjf;alskdjf;alksjdf;alksjdfak;lsjd;falksjdf;laksjd;flakjs;dlfkajs;ldkfjal;sjdfl;kajs;ldfkjasl;kdjf;lasjdfl;akjs;dlkfja;iesfja;lksdjf;oa
 as;lkdjfa;lskdjf;alskdjfa;lskdjf;alskdjf;alskdjf;alksjdf;alksjdfak;lsjd;falksjdf;laksjd;flakjs;dlfkajs;ldkfjal;sjdfl;kajs;ldfkjasl;kdjf;lasjdfl;akjs;dlkfja;iesfja;lksdjf;oa
 `;
+
+  console.log(OTHER);
+}
