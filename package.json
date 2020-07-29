@@ -9,8 +9,7 @@
     "clean": "rm -rf dist",
     "rollup": "rollup -c",
     "test": "jest",
-    "lint": "eslint src --fix --ext .ts",
-    "postinstall": "npm run build"
+    "lint": "eslint src --fix --ext .ts"
   },
   "keywords": [
     "utils",
